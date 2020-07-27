@@ -1,0 +1,9 @@
+(in-package :om)
+
+(defmethod! mult-1k ((arg1 number)) 
+   :initvals '(60) 
+   :indoc '("What Number?")
+   :icon 909 
+   :doc "multiple a number by 1000" 
+  
+   (princ (* arg1 1000)))
